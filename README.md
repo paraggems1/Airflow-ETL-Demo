@@ -1,8 +1,11 @@
 # Airflow-ETL-Demo (Python + SQL, Docker)
 
-This is a small hands-on ETL project built to practice Apache Airflow orchestration, Python-based transformation, and PostgreSQL loading using a local Docker setup.
-Instead of using Spark or large-scale infrastructure, this project focuses on core ETL concepts, workflow design, and reproducible local execution.
-DAG folder should contain only workflow code.Data should live in separate storage like /data, S3, or data lake paths.we keep here because its demo project so we reduce dependancy by keeping structure simple.
+This is a small hands-on ETL project built to practice Apache Airflow orchestration, Python-based data transformation, and PostgreSQL loading using a local Docker setup.
+
+Instead of using Spark or large-scale infrastructure, this project focuses on core ETL concepts, workflow design, modular scripting, and reproducible local execution.
+
+In production environments, the DAG folder should contain only workflow code, while datasets should be stored in external locations such as `/data`, object storage (e.g., S3), or data lake paths.  
+For this demo project, sample data is intentionally kept inside the repository to reduce dependencies and keep the setup simple for local execution.
 
 ---
 
