@@ -1,0 +1,38 @@
+# --- system / python ---
+.env
+.vscode/
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+logs/
+config/
+airflow_dev/
+venv/
+.venv/
+readme_instruction.md
+sample.py
+
+# --- ignore EVERYTHING inside dags ---
+dags/*
+
+# --- allow ONLY required dag files ---
+!dags/lake_etl_dag.py
+!dags/scripts/
+!dags/scripts/*.py
+
+# --- allow data folder structure but NO files ---
+!dags/data/
+dags/data/*
+
+!dags/data/raw/
+!dags/data/curated/
+
+# ignore datasets
+dags/data/**/*.csv
+dags/data/**/*.parquet
+dags/data/**/*.json
+
+# keep empty folders
+!dags/data/raw/.gitkeep
+!dags/data/curated/.gitkeep
