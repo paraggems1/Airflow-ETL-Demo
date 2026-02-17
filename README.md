@@ -103,3 +103,24 @@ Future improvements may include object storage integration (S3/MinIO), validatio
 ---
 
 This repository represents a foundational Data Engineering practice project and will be extended incrementally.
+
+
+## Screenshots
+
+### Raw CSV Data
+![Raw Data](docs/screenshots/2.1_raw_csv_data.png)
+
+### Curated CSV Data
+![Curated Data](docs/screenshots/2.2_curated_csv_data.png)
+
+### Airflow DAG Running
+![DAG Running](docs/screenshots/3.1_dag_running_live.png)
+
+### Airflow DAG Graph View
+![Graph View](docs/screenshots/3.2_dag_graphview.png)
+
+### Before Update Name
+![Before Update](docs/screenshots/1.1_before_udate_name.png)
+
+### After Update Name
+![After Update](docs/screenshots/1.2_after_udate_name.png)
