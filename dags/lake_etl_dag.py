@@ -14,7 +14,7 @@ default_args = {
     "retry_delay": timedelta(minutes=5),
 }
 
-logger.info("Loading DAG: etl_raw_to_curated_to_db_demo_v02")
+logger.info("Loading DAG: etl_raw_to_curated_to_db_demo")
 
 with DAG(
     dag_id="etl_raw_to_curated_to_db_demo_v03",
