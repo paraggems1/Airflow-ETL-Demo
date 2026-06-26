@@ -1,5 +1,8 @@
 # Airflow-ETL-Demo (Python + SQL, Docker)
 
+## Author: Parag Sonawane
+## Created and maintained by Parag Sonawane
+
 This is a small hands-on ETL project built to practice Apache Airflow orchestration, Python-based data transformation, and PostgreSQL loading using a local Docker setup.
 
 Instead of using Spark or large-scale infrastructure, this project focuses on core ETL concepts, workflow design, modular scripting, and reproducible local execution.
