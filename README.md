@@ -126,7 +126,7 @@ This repository represents a foundational Data Engineering practice project and 
 ![Graph View](docs/screenshots/3.2_dag_graphview.png)
 
 ### Before Update Name
-![Before Update](docs/screenshots/1.1_before_udate_name.png)
+![Before Update](docs/screenshots/1.1_before_update_name.png)
 
 ### After Update Name
-![After Update](docs/screenshots/1.2_after_udate_name.png)
+![After Update](docs/screenshots/1.2_after_update_name.png)
